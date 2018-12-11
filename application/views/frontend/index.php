@@ -19,6 +19,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="<?php echo base_url();?>assets/frontend/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?php echo base_url();?>assets/frontend/css/font-awesome.css" rel="stylesheet"> 
 <link href="<?php echo base_url();?>assets/frontend/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+<link href="<?php echo base_url();?>assets/frontend/css/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="<?php echo base_url();?>assets/frontend/css/team.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //for bootstrap working -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
@@ -28,10 +30,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="header" id="home">
 	<div class="container">
 		<ul>
-		    <li> <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </a></li>
-			<li> <a href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up </a></li>
-			<li><i class="fa fa-phone" aria-hidden="true"></i> Call : 01234567898</li>
-			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">info@example.com</a></li>
+		    <li> <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Masuk </a></li>
+			<li> <a href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Daftar </a></li>
+			<li><i class="fa fa-phone" aria-hidden="true"></i> Hubungi: +6285695682973</li>
+			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:burhanmafazi@gmail.com">burhanmafazi@gmail.com</a></li>
 		</ul>
 	</div>
 </div>
@@ -41,35 +43,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header-bot_inner_wthreeinfo_header_mid">
 		<div class="col-md-4 header-middle">
 			<form action="#" method="post">
-					<input type="search" name="search" placeholder="Search here..." required="">
+					<input type="search" name="search" placeholder="Cari disini..." required="">
 					<input type="submit" value=" ">
 				<div class="clearfix"></div>
 			</form>
 		</div>
 		<!-- header-bot -->
 			<div class="col-md-4 logo_agile">
-				<h1><a href="index.html"><span>E</span>lite Shoppy <i class="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></a></h1>
+				<h1><a href="index.html"><span>Z</span>ainab Project <i class="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></a></h1>
 			</div>
         <!-- header-bot -->
 		<div class="col-md-4 agileits-social top_content">
-						<ul class="social-nav model-3d-0 footer-social w3_agile_social">
-						                                   <li class="share">Share On : </li>
-															<li><a href="#" class="facebook">
-																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="twitter"> 
-																  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="instagram">
-																  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="pinterest">
-																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
-
-
-
+			<ul class="social-nav model-3d-0 footer-social w3_agile_social">
+               <li class="share">Bagikan di : </li>
+				<li><a href="#" class="facebook">
+					  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+					  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+				<li><a href="#" class="twitter"> 
+					  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+					  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+				<li><a href="#" class="instagram">
+					  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+					  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+				<li><a href="#" class="pinterest">
+					  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+					  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+			</ul>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -93,8 +92,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav menu__list">
-					<li class="active menu__item menu__item--current"><a class="menu__link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-					<li class=" menu__item"><a class="menu__link" href="about.html">About</a></li>
+					<li class="active menu__item menu__item--current"><a class="menu__link" href="index.html">Beranda <span class="sr-only">(current)</span></a></li>
+					<li class=" menu__item"><a class="menu__link" href="about.html">Tentang</a></li>
 					<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men's wear <span class="caret"></span></a>
 							<ul class="dropdown-menu multi-column columns-3">
@@ -161,14 +160,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</ul>
 					</li>
-					<li class="menu__item dropdown">
-					   <a class="menu__link" href="#" class="dropdown-toggle" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
-								<ul class="dropdown-menu agile_short_dropdown">
-									<li><a href="icons.html">Web Icons</a></li>
-									<li><a href="typography.html">Typography</a></li>
-								</ul>
-					</li>
-					<li class=" menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+					<li class=" menu__item"><a class="menu__link" href="contact.html">Kontak</a></li>
 				  </ul>
 				</div>
 			  </div>
@@ -198,19 +190,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 						<div class="modal-body modal-body-sub_agile">
 						<div class="col-md-8 modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In <span>Now</span></h3>
+						<h3 class="agileinfo_sign">Masuk <span>Sekarang</span></h3>
 									<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
-								<label>Name</label>
+								<input type="text" name="Username" required="">
+								<label>Username</label>
 								<span></span>
 							</div>
 							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
-								<label>Email</label>
+								<input type="email" name="password" required=""> 
+								<label>Password</label>
 								<span></span>
 							</div> 
-							<input type="submit" value="Sign In">
+							<input type="submit" value="Masuk">
 						</form>
 						  <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
 															<li><a href="#" class="facebook">
@@ -250,29 +242,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 						<div class="modal-body modal-body-sub_agile">
 						<div class="col-md-8 modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign Up <span>Now</span></h3>
+						<h3 class="agileinfo_sign">Daftar <span>Sekarang</span></h3>
 						 <form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
-								<label>Name</label>
+								<input type="text" name="username" required="">
+								<label>Username</label>
 								<span></span>
 							</div>
-							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
-								<label>Email</label>
-								<span></span>
-							</div> 
 							<div class="styled-input">
 								<input type="password" name="password" required=""> 
 								<label>Password</label>
 								<span></span>
 							</div> 
 							<div class="styled-input">
-								<input type="password" name="Confirm Password" required=""> 
-								<label>Confirm Password</label>
+								<input type="password" name="konfirmasi_password" required=""> 
+								<label>Konfirmasi Password</label>
 								<span></span>
 							</div> 
-							<input type="submit" value="Sign Up">
+							<div class="styled-input">
+								<input type="email" name="email" required=""> 
+								<label>Email</label>
+								<span></span>
+							</div> 
+							<input type="submit" value="Daftar">
 						</form>
 						  <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
 															<li><a href="#" class="facebook">
@@ -371,119 +363,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- The Modal -->
     </div> 
 	<!-- //banner -->
-    <div class="banner_bottom_agile_info">
-	    <div class="container">
-            <div class="banner_bottom_agile_info_inner_w3ls">
-    	           <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
-						<figure class="effect-roxy">
-							<img src="<?php echo base_url();?>assets/frontend/images/bottom1.jpg" alt=" " class="img-responsive" />
-							<figcaption>
-								<h3><span>F</span>all Ahead</h3>
-								<p>New Arrivals</p>
-							</figcaption>			
-						</figure>
-					</div>
-					 <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
-						<figure class="effect-roxy">
-							<img src="<?php echo base_url();?>assets/frontend/images/bottom2.jpg" alt=" " class="img-responsive" />
-							<figcaption>
-								<h3><span>F</span>all Ahead</h3>
-								<p>New Arrivals</p>
-							</figcaption>			
-						</figure>
-					</div>
-					<div class="clearfix"></div>
-		    </div> 
-		 </div> 
-    </div>
-	<!-- schedule-bottom -->
-	<div class="schedule-bottom">
-		<div class="col-md-6 agileinfo_schedule_bottom_left">
-			<img src="<?php echo base_url();?>assets/frontend/images/mid.jpg" alt=" " class="img-responsive" />
-		</div>
-		<div class="col-md-6 agileits_schedule_bottom_right">
-			<div class="w3ls_schedule_bottom_right_grid">
-				<h3>Save up to <span>50%</span> in this week</h3>
-				<p>Suspendisse varius turpis efficitur erat laoreet dapibus. 
-					Mauris sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
-				<div class="col-md-4 w3l_schedule_bottom_right_grid1">
-					<i class="fa fa-user-o" aria-hidden="true"></i>
-					<h4>Customers</h4>
-					<h5 class="counter">653</h5>
-				</div>
-				<div class="col-md-4 w3l_schedule_bottom_right_grid1">
-					<i class="fa fa-calendar-o" aria-hidden="true"></i>
-					<h4>Events</h4>
-					<h5 class="counter">823</h5>
-				</div>
-				<div class="col-md-4 w3l_schedule_bottom_right_grid1">
-					<i class="fa fa-shield" aria-hidden="true"></i>
-					<h4>Awards</h4>
-					<h5 class="counter">45</h5>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-<!-- //schedule-bottom -->
-  <!-- banner-bootom-w3-agileits -->
-	<div class="banner-bootom-w3-agileits">
-	<div class="container">
-		<h3 class="wthree_text_info">What's <span>Trending</span></h3>
-	
-		<div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
-			<a href="womens.html">
-			   <div class="bb-left-agileits-w3layouts-inner grid">
-					<figure class="effect-roxy">
-							<img src="<?php echo base_url();?>assets/frontend/images/bb1.jpg" alt=" " class="img-responsive" />
-							<figcaption>
-								<h3><span>S</span>ale </h3>
-								<p>Upto 55%</p>
-							</figcaption>			
-						</figure>
-			    </div>
-			</a>
-		</div>
-		<div class="col-md-7 bb-grids bb-middle-agileits-w3layouts">
-		      <a href="mens.html">
-		       <div class="bb-middle-agileits-w3layouts grid">
-			           <figure class="effect-roxy">
-							<img src="<?php echo base_url();?>assets/frontend/images/bottom3.jpg" alt=" " class="img-responsive" />
-							<figcaption>
-								<h3><span>S</span>ale </h3>
-								<p>Upto 55%</p>
-							</figcaption>			
-						</figure>
-		        </div>
-				</a>
-				<a href="mens.html">
-		      <div class="bb-middle-agileits-w3layouts forth grid">
-						<figure class="effect-roxy">
-							<img src="<?php echo base_url();?>assets/frontend/images/bottom4.jpg" alt=" " class="img-responsive">
-							<figcaption>
-								<h3><span>S</span>ale </h3>
-								<p>Upto 65%</p>
-							</figcaption>		
-						</figure>
-					</div>
-					</a>
-		<div class="clearfix"></div>
-	</div>
-	</div>
-    </div>
-<!--/grids-->
-      <div class="agile_last_double_sectionw3ls">
-            <div class="col-md-6 multi-gd-img multi-gd-text ">
-					<a href="womens.html"><img src="<?php echo base_url();?>assets/frontend/images/bot_1.jpg" alt=" "><h4>Flat <span>50%</span> offer</h4></a>
-					
-			</div>
-			 <div class="col-md-6 multi-gd-img multi-gd-text ">
-					<a href="womens.html"><img src="<?php echo base_url();?>assets/frontend/images/bot_2.jpg" alt=" "><h4>Flat <span>50%</span> offer</h4></a>
-			</div>
-			<div class="clearfix"></div>
-	   </div>							
-<!--/grids-->
 <!-- /new_arrivals --> 
 	<div class="new_arrivals_agile_w3ls_info"> 
 		<div class="container">
@@ -1767,15 +1646,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	<!-- //new_arrivals --> 
-	<!-- /we-offer -->
-		<div class="sale-w3ls">
-			<div class="container">
-				<h6>We Offer Flat <span>40%</span> Discount</h6>
- 
-				<a class="hvr-outline-out button2" href="single.html">Shop Now </a>
-			</div>
-		</div>
-	<!-- //we-offer -->
 <!--/grids-->
 <div class="coupons">
 		<div class="coupons-grids text-center">
@@ -1826,7 +1696,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="footer">
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-3 footer-left">
-			<h2><a href="index.html"><span>E</span>lite Shoppy </a></h2>
+			<h2><a href="index.html"><span>Z</span>ainab Project </a></h2>
 			<p>Lorem ipsum quia dolor
 			sit amet, consectetur, adipisci velit, sed quia non 
 			numquam eius modi tempora.</p>
@@ -1848,7 +1718,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-md-9 footer-right">
 			<div class="sign-grds">
 				<div class="col-md-4 sign-gd">
-					<h4>Our <span>Information</span> </h4>
+					<h4>Informasi <span>Kami</span> </h4>
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="mens.html">Men's Wear</a></li>
@@ -1860,15 +1730,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				
 				<div class="col-md-5 sign-gd-two">
-					<h4>Store <span>Information</span></h4>
+					<h4>Informasi <span>Toko</span></h4>
 					<div class="w3-address">
 						<div class="w3-address-grid">
 							<div class="w3-address-left">
 								<i class="fa fa-phone" aria-hidden="true"></i>
 							</div>
 							<div class="w3-address-right">
-								<h6>Phone Number</h6>
-								<p>+1 234 567 8901</p>
+								<h6>Nomor Telepon</h6>
+								<p>+62 856 9568 2973</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -1877,8 +1747,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<i class="fa fa-envelope" aria-hidden="true"></i>
 							</div>
 							<div class="w3-address-right">
-								<h6>Email Address</h6>
-								<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+								<h6>Alamat Email</h6>
+								<p>Email :<a href="mailto:burhanmafazi@gmail.com"> burhanmafazi@gmail.com</a></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -1887,8 +1757,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</div>
 							<div class="w3-address-right">
-								<h6>Location</h6>
-								<p>Broome St, NY 10002,California, USA. 
+								<h6>Lokasi</h6>
+								<p>Jl. Ngarai No. 5 Kelapa Dua, Cimanggis, Depok. 
 								
 								</p>
 							</div>
@@ -1914,20 +1784,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 		<div class="clearfix"></div>
-			<div class="agile_newsletter_footer">
-					<div class="col-sm-6 newsleft">
-				<h3>SIGN UP FOR NEWSLETTER !</h3>
-			</div>
-			<div class="col-sm-6 newsright">
-				<form action="#" method="post">
-					<input type="email" placeholder="Enter your email..." name="email" required="">
-					<input type="submit" value="Submit">
-				</form>
-			</div>
-
-		<div class="clearfix"></div>
-	</div>
-		<p class="copy-right">&copy 2017 Elite shoppy. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			
+		<p class="copy-right">&copy 2018 Zainab Project. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 	</div>
 </div>
 <!-- //footer -->
