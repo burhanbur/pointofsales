@@ -191,14 +191,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="modal-body modal-body-sub_agile">
 						<div class="col-md-8 modal_body_left modal_body_left1">
 						<h3 class="agileinfo_sign">Masuk <span>Sekarang</span></h3>
-									<form action="#" method="post">
+							<form action="<?php base_url(); ?>website/getLogin" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Username" required="">
-								<label>Username</label>
+								<input type="email" name="email" required="">
+								<label>Email</label>
 								<span></span>
 							</div>
 							<div class="styled-input">
-								<input type="email" name="password" required=""> 
+								<input type="password" name="password" required=""> 
 								<label>Password</label>
 								<span></span>
 							</div> 
