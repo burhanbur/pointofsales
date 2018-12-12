@@ -13,7 +13,13 @@
 				<!-- end: sidebar -->
 
 				<!-- start: content -->
+				<section role="main" class="content-body">
+					<header class="page-header">
+						<h2><i class="fa fa-home"></i><?php echo ' '.$judul; ?></h2>					
+					</header>
+					
 				<?php $this->load->view($content); ?>
+				</section>
 				<!-- end: content -->
 			</div>			
 		</section>

@@ -102,7 +102,7 @@
 						</ul>
 					</li>
 					<li class="nav">
-						<a href="#">
+						<a href="<?php echo base_url(); ?>toko">
 							<i class="fa fa-institution" aria-hidden="true"></i>
 							<span>Data Toko</span>
 						</a>
